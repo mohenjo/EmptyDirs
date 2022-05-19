@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows10.0.17763.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Copyright>MIT License</Copyright>
+    <PackageIcon>icon.png</PackageIcon>
+    <AssemblyVersion>1.0.22.0519</AssemblyVersion>
+    <FileVersion>1.0.22.0519</FileVersion>
+    <ApplicationIcon>mainicon.ico</ApplicationIcon>
+    <Version>1.0.220519</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="mainicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
